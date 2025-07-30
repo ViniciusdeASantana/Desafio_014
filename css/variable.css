@@ -1,0 +1,110 @@
+:root {
+  /* 🎨 Colors (Main Palette) */
+  --primary-color: #CD3C32;
+  --secondary-color: #ff7f50;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+
+  /* 🎨 Neutral Colors */
+  --black: #000000;
+  --white: #ffffff;
+  --gray-darkest: #212529;
+  --gray-darker: #343a40;
+  --gray: #6c757d;
+  --gray-light: #adb5bd;
+  --gray-lightest: #f8f9fa;
+  --background-color: #f5f5f5;
+  --text-color: #333333;
+
+  /* 🖋 Typography */
+  --font-family-primary: 'Inter', sans-serif;
+  --font-family-secondary: 'Roboto', sans-serif;
+
+  --font-size-xs: 0.75rem;   /* 12px */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-base: 1rem;    /* 16px */
+  --font-size-md: 1.125rem;  /* 18px */
+  --font-size-lg: 1.25rem;   /* 20px */
+  --font-size-xl: 1.5rem;    /* 24px */
+  --font-size-xxl: 2rem;     /* 32px */
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --line-height-base: 1.5;
+  --letter-spacing-base: 0.5px;
+
+  /* 📏 Spacing */
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+
+  /* 🧱 Container Sizes */
+  --container-width-sm: 540px;
+  --container-width-md: 720px;
+  --container-width-lg: 960px;
+  --container-width-xl: 1140px;
+  --container-max-width: 100%;
+
+  /* 🎯 Border Radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 50px;
+  --radius-circle: 50%;
+
+  /* 🧩 Borders */
+  --border-default: 1px solid var(--gray-light);
+  --border-active: 2px solid var(--primary-color);
+
+  /* 🕶 Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+  --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+
+  /* ⌨️ Transitions */
+  --transition-default: all 0.3s ease-in-out;
+  --transition-fast: all 0.15s ease-in-out;
+
+  /* ⚡ Opacity */
+  --opacity-disabled: 0.5;
+  --opacity-hover: 0.85;
+
+  /* 🖼 Z-Index */
+  --z-index-negative: -1;
+  --z-index-base: 1;
+  --z-index-menu: 100;
+  --z-index-modal: 1000;
+  --z-index-popup: 1050;
+  --z-index-fixed: 9999;
+
+  /* 🧭 Breakpoints (Media Queries) */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-xxl: 1440px;
+
+  /* ⏹ Grid System (optional) */
+  --grid-columns: 12;
+  --gutter-horizontal: 1rem;
+  --gutter-vertical: 1rem;
+
+  /* ⏱ Timing / Animation Delays */
+  --animation-duration-short: 150ms;
+  --animation-duration-medium: 300ms;
+  --animation-duration-long: 600ms;
+
+  /* 📱 Layout Heights */
+  --navbar-height: 60px;
+  --footer-height: 80px;
+}
