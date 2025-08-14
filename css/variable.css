@@ -1,7 +1,7 @@
 :root {
   /* 🎨 Colors (Main Palette) */
   --primary-color: #CD3C32;
-  --secondary-color: #ff7f50;
+  --secondary-color: #FFE9E8;
   --success-color: #28a745;
   --error-color: #dc3545;
   --warning-color: #ffc107;
@@ -31,6 +31,7 @@
   --font-size-xxl: 2rem;     /* 32px */
 
   --font-weight-normal: 400;
+  --font-weight-normal-bold: 500;
   --font-weight-bold: 700;
 
   --line-height-base: 1.5;
