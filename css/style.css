@@ -43,6 +43,10 @@ body {
     font-weight: var(--font-weight-normal-bold);
 }
 
+.header-wrapper__info {
+    
+}
+
 .header__hero {
     width: 326px;
     height: 221px;
