@@ -170,7 +170,28 @@ body {
 
 /* footer */
 
+.footer-bg {
+    background-color: var(--secondary-color) ;
+}
 
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 48px 0px 32px;
+}
+
+.footer-icon__paragraph {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-normal-bold);
+}
+
+.footer-social__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
 
 
 .color-red {
